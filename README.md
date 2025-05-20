@@ -11,3 +11,6 @@ Since there are five messages in total, the number of bytes is 24 * 5 = 120 byte
 
 b.  
 When the same URL is used on both the publisher and subscriber, it essentially connects to the same AMQP broker. By connecting to the same broker, they can exchange messages from the same queues, enabling the exchange of data.
+
+## RabbitMQ initial screenshot
+![RabbitMQ initial screenshot](rabbitmq_initial.png)
