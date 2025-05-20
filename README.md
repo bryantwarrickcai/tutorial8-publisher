@@ -14,3 +14,8 @@ When the same URL is used on both the publisher and subscriber, it essentially c
 
 ## RabbitMQ initial screenshot
 ![RabbitMQ initial screenshot](rabbitmq_initial.png)
+
+## RabbitMQ Terminal screenshot
+![RabbitMQ Terminal screenshot](rabbitmq_terminal.png)
+
+When you run `cargo run` on the publisher app, the app sends five messages to the message broker. These messages are then received and processed by the subscriber.
