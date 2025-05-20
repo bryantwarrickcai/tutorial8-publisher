@@ -19,3 +19,8 @@ When the same URL is used on both the publisher and subscriber, it essentially c
 ![RabbitMQ Terminal screenshot](rabbitmq_terminal.png)
 
 When you run `cargo run` on the publisher app, the app sends five messages to the message broker. These messages are then received and processed by the subscriber.
+
+## RabbitMQ screenshot when running `publisher` twice
+![RabbitMQ screenshot when running publisher twice](rabbitmq_run_publisher_twice.png)
+
+When you run the publisher app and the app sends five messages to the broker, the message rates increase. In this screenshot, I ran the publisher app twice, each one sending five messages. The peaks show the times when I run the publisher app and the messages are sent.
